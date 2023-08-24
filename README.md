@@ -34,7 +34,7 @@ AvlTree<int> tree;
 cout << avl_levelorder << tree;
 ```
 
-### How to run the demo program?
+### How do I run the demo program?
 Compile and run "demo.cpp" to experience the AVL tree behavior using text animation.
 
 Linux
@@ -43,15 +43,15 @@ make run
 ```
 Linux - using docker
 ```Shell
-make docker
+make docker-run
 ```
 Windows - using docker
 ```Batchfile
 docker-run.bat
 ```
 
-### What if I need an example?
-Look at "example.cpp" to learn how to create, populate and display an AVL tree.
+### How do I get an example?
+Look at "example.cpp" to learn how to create, populate, and display an AVL tree.
 
 Linux
 ```Shell
@@ -59,7 +59,7 @@ make run TARGET=example
 ```
 Linux - using docker
 ```Shell
-make docker TARGET=example
+make docker-run TARGET=example
 ```
 Windows - using docker
 ```Batchfile
@@ -75,21 +75,21 @@ make run TARGET=test
 ```
 Linux - using docker
 ```Shell
-make docker TARGET=test
+make docker-run TARGET=test
 ```
 Windows - using docker
 ```Batchfile
 docker-run.bat test
 ```
 
-### How to remove the executable product files?
+### How do you remove the executable product files?
 
 #### Linux
 ```
 make clean
 ```
 #### Windows or Linux using docker
-Unneeded since docker automatically cleans up the container and removes the file system when the container exits.
+It is unneeded since docker automatically cleans up the container and removes the file system when it exits.
 
 ### How to remove the docker images
 Linux
