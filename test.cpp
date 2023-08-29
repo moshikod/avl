@@ -19,7 +19,7 @@ using namespace std::chrono;
     {                                                                                                              \
         const auto start = high_resolution_clock::now();                                                           \
         bool result = true;                                                                                        \
-        switch (0)                                                                                            \
+        switch (0)                                                                                                 \
         {                                                                                                          \
         default:                                                                                                   \
             code;                                                                                                  \
@@ -104,7 +104,7 @@ TEST(avl_value_manipulation,
 
          TestData data;
          tree1.remove(31, &data);
-         TEST_ASSERT(tree == tree1, "value resmoved");
+         TEST_ASSERT(tree == tree1, "value removed");
      })
 
 #ifdef __cplusplus
