@@ -1,5 +1,5 @@
 /**
- * @file demo.cpp
+ * @file test.cpp
  * @author Moshe Pontch (pontch at gmail.com)
  * @brief Basic test for AVL library
  * @date 2022-08-31
