@@ -1,5 +1,5 @@
 /**
- * @file demo.cpp
+ * @file example.cpp
  * @author Moshe Pontch (pontch at gmail.com)
  * @brief Short example of using the AVL library
  * @date 2022-08-31
